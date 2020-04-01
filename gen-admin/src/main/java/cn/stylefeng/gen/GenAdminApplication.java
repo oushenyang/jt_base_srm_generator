@@ -33,7 +33,7 @@ public class GenAdminApplication {
             databaseInfo.setCreateTime(new Date());
             databaseInfo.setDbName("本地数据源");
             databaseInfo.setJdbcDriver("com.mysql.jdbc.Driver");
-            databaseInfo.setJdbcUrl("jdbc:mysql://127.0.0.1:3306/guns?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&serverTimezone=CTT");
+            databaseInfo.setJdbcUrl("jdbc:mysql://39.108.252.160:3306/guns_advanced?autoReconnect=true&useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=CONVERT_TO_NULL&useSSL=false&serverTimezone=CTT");
             databaseInfo.setUserName("root");
             databaseInfo.setPassword("root");
             this.databaseInfoRepository.save(databaseInfo);
